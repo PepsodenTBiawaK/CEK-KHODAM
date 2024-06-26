@@ -1,0 +1,115 @@
+body {
+  background-image: url(img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.center-box {
+  width: 1095px;
+  border-radius: 20px;
+  background: rgba(106, 188, 226, 0.24);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  width: 1051px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #e0f5ff;
+  text-shadow: 0px 0px 18.4px #58afdd;
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.nama {
+  display: flex;
+  width: 338px;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 3px solid var(--Light-Blue-1, #58afdd);
+  background: transparent;
+  color: var(--Blue-Text, #e0f5ff) !important;
+}
+
+.khodam {
+  display: flex;
+  width: 570px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 3px solid var(--Light-Blue-1, #58afdd);
+  background: transparent;
+}
+
+.form-control:focus {
+  background: transparent !important;
+  color: var(--Blue-Text, #e0f5ff) !important;
+  font-family: Nunito;
+  font-size: 25px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+}
+
+.form-control::placeholder {
+  color: var(--Blue-Text, #e0f5ff);
+  font-family: Nunito;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  display: flex;
+  width: 202px;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: none;
+  background: var(--Dark-Blue, #3271a5);
+  box-shadow: 0px 0px 24.9px 0px #e0f5ff;
+  color: var(--Blue-Text, #e0f5ff);
+  font-family: Nunito;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+span {
+  color: var(--Blue-Text, #e0f5ff);
+  font-family: Nunito;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+}
+
+span a{
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+}
